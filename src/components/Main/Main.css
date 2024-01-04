@@ -1,0 +1,42 @@
+.main h1 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.main h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.main p {
+    font-weight: 400;
+}
+
+.sims {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.left img {
+    width: 10px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.right img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

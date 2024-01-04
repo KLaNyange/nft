@@ -1,0 +1,19 @@
+.last {
+    display: flex;
+}
+
+.last img {
+    margin-right: 10px;
+    border: solid 2px;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.last span {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.last span:hover {
+    color: hsl(178, 100%, 50%);
+}
