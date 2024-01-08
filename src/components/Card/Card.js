@@ -35,38 +35,15 @@ function Card() {
             }
         }
     }
+    console.log(data);
     return (
         <div className="card">
-            <ImgCard img={img} view={view} data={data.imgCard} />
-            <Main data={data.main} />
+            <ImgCard data={data.imgCard} /> {/* je passe en props uniquement les informations de l'objet imgCard*/}
+            
+            <Main data={data.main} /> {/* je passe en props uniquement les informations de l'objet main*/}
             <hr />
-            <User data={data.created} />
+            <User data={data.created} /> {/* je passe en props uniquement les informations de l'objet created*/}
         </div>
-        // <div className="card">
-        //     <div className="img">
-        //         <img src={img} alt="" height={350} />
-        //         <div className="active">
-        //             <img src={view} alt="" className="view" />
-        //         </div>
-        //     </div>
-        //     <h1>Equilibrium #3429</h1>
-        //     <p>Our Equilibrium collection promotes balance calm</p>
-        //     <div className="sims">
-        //         <div className="left">
-        //             <img src={sims} alt="" />
-        //             <p>0,041 ETH</p>
-        //         </div>
-        //         <div className="right">
-        //             <img src={clock} alt="" />
-        //             <p>3 days left</p>
-        //         </div>
-        //     </div>
-        //     <hr />
-        //     <div className="last">
-        //         <img src={user} alt=""  height={50}/>
-        //         <p>Creation of <span>Jules Wyverin</span></p>
-        //     </div>
-        // </div>
     )
 }
 

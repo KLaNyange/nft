@@ -9,23 +9,23 @@
     border-radius: 10px;
 }
 
-.active {
+.eye {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: hsl(178, 100%, 50%, 0.4);
+    background-color: hsla(178, 100%, 50%, 0.4);
     display: none;
 }
 
-.active img {
+.eye img {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-.img:hover .active {
+.img:hover .eye {
     display: block;
 }
